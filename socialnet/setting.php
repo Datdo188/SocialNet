@@ -25,7 +25,7 @@ $result = $conn->query($sql);
 
 $user = $result->fetch_assoc();
 ?>
-
+<link rel="stylesheet" href="/socialnet/style.css">
 <h2>Setting Page</h2>
 
 <form method="POST">

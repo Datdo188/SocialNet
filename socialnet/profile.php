@@ -14,7 +14,7 @@ $result = $conn->query($sql);
 
 $user = $result->fetch_assoc();
 ?>
-
+<link rel="stylesheet" href="/socialnet/style.css">
 <h2>Profile Page</h2>
 
 Username: <?php echo $user['username']; ?><br>

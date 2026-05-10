@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
-
+<link rel="stylesheet" href="/socialnet/style.css">
 <h2>Sign In</h2>
 
 <form method="POST">

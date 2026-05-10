@@ -19,6 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+<link rel="stylesheet" href="/socialnet/style.css">
 
 <h2>Create User</h2>
 
@@ -35,6 +36,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <button type="submit">Create</button>
 
+    <br>
+    <a href="/socialnet/signin.php">
+        <button type="button">Go to Sign In</button>
+    </a>
 </form>
 
 <p><?php echo $message; ?></p>

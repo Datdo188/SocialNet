@@ -22,3 +22,4 @@ while($row = $result->fetch_assoc()) {
          "</a><br>";
 }
 ?>
+<link rel="stylesheet" href="/socialnet/style.css">
