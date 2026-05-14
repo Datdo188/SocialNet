@@ -48,4 +48,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 </form>
 
+<br>
+
+<a href="../admin/newuser.php">Create New User</a>
+
 <p><?php echo $error; ?></p>
